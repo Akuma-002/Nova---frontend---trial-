@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova - ChatBot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div id="loader" class="center"></div>
+    <header>
+        <div id="heading">
+            <h1><b>Nova</b></h1>
+            
+            <p>
+                This is a trail project made by CodeCrew from Brainware University 1st semister students
+            </p>
+        </div>
+    </header>
+    <main>
+        <div id="back">
+            <img src="Nova_LogoNova_logo.svg" height="150px">
+        </div>
+        <div id="topics">
+        <div id="topic1" class="suggestion">
+            <p>You can talk with 
+<big><b>Nova</b></big></p>
+        </div>
+        <div id="topic2" class="suggestion"><big><b>Nova</b></big> can solve equation</div>
+        <div id="topic3" class="suggestion">Recognise image </div>
+        <div id="topic4" class="suggestion"><big><b>Nova</b></big> is a friendly A.I ChatBot</div>
+        </div>
+        <br>
+        <div id="outPrint">
+
+            <p id="output"></p>
+            <img id="preview">
+        </div>
+
+
+        
+        <div id="text">
+            <from>
+                <label  for="file-input">
+                    <i class="fa-solid fa-upload" id="inputLogo"></i>
+                </label>
+                <input type="file" id="file-input" accept="image">
+            </from>
+            <input id="promptBox" type="text" placeholder="Type your prompt for Nova " >
+            <button id="enterButton" type="submit"  onclick="takeAndPrint()"></button>
+        </div>
+    
+    </main>
+
+
+    <footer>
+        <div id="footer">
+            <p>
+                <b>Nova</b> can make mistake, Check important info.
+
+            </p>
+            <p>
+                This is a example project made by CodeCrew group. | © 2024, <b></b>Nova, CodeCrew
+            </p>
+            <p>
+                
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
